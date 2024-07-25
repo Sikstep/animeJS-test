@@ -1,0 +1,54 @@
+.nav {
+    grid-area: n;
+    background-color: #1D1E22;
+    padding: 35px 20px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    width: max-content;
+    display: inline !important;
+    width: max-content;
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, white, white, white);
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    font: 18px / 1.4 "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.nav .item:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.item a:hover {
+    background-size: 0 1px, 100% 1px;
+}
+
+.item .activeNavLink {
+    color: #D2AB51;
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #D2AB51, #D2AB51, #D2AB51);
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+}
+
+.item .activeNavLink:hover{
+ background-size: 0 1px, 100% 1px;
+}
+
+.item .activeNavLink::before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    background-color: #D2AB51;
+    top: 0;
+    left: -10px;
+    border-radius: 3px 0 0 3px;
+}
+
