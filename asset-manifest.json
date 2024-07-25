@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Sikstep/animeJS-test/static/css/main.4fae7cae.css",
-    "main.js": "/Sikstep/animeJS-test/static/js/main.03e2a85d.js",
-    "static/js/453.5f3861ab.chunk.js": "/Sikstep/animeJS-test/static/js/453.5f3861ab.chunk.js",
-    "static/media/Plan3.webp": "/Sikstep/animeJS-test/static/media/Plan3.9ea9d9aa8e481e66fc44.webp",
-    "static/media/Plan5.webp": "/Sikstep/animeJS-test/static/media/Plan5.dde3b710d7c513011eb5.webp",
-    "static/media/Plan2.webp": "/Sikstep/animeJS-test/static/media/Plan2.ca749d21b45400e146f0.webp",
-    "static/media/Plan1.webp": "/Sikstep/animeJS-test/static/media/Plan1.95351aea3e9d97a4ea05.webp",
-    "static/media/Plan7.webp": "/Sikstep/animeJS-test/static/media/Plan7.82910d82dfb036b1f9f4.webp",
-    "static/media/Plan4.webp": "/Sikstep/animeJS-test/static/media/Plan4.0275e56c1c5ba3c60127.webp",
-    "static/media/Plan6.webp": "/Sikstep/animeJS-test/static/media/Plan6.5191aa00e560ba8aa43c.webp",
-    "static/media/Plan8.webp": "/Sikstep/animeJS-test/static/media/Plan8.fe27222a0d4df6638ef1.webp",
-    "static/media/ellipse1.webp": "/Sikstep/animeJS-test/static/media/ellipse1.b7c6d591c41d055ef68a.webp",
-    "static/media/ellipse2.webp": "/Sikstep/animeJS-test/static/media/ellipse2.4e99bfb5c61153607f85.webp",
-    "index.html": "/Sikstep/animeJS-test/index.html",
-    "main.4fae7cae.css.map": "/Sikstep/animeJS-test/static/css/main.4fae7cae.css.map",
-    "main.03e2a85d.js.map": "/Sikstep/animeJS-test/static/js/main.03e2a85d.js.map",
-    "453.5f3861ab.chunk.js.map": "/Sikstep/animeJS-test/static/js/453.5f3861ab.chunk.js.map"
+    "main.css": "/animeJS-test/static/css/main.4fae7cae.css",
+    "main.js": "/animeJS-test/static/js/main.c52d5fa4.js",
+    "static/js/453.5f3861ab.chunk.js": "/animeJS-test/static/js/453.5f3861ab.chunk.js",
+    "static/media/Plan3.webp": "/animeJS-test/static/media/Plan3.9ea9d9aa8e481e66fc44.webp",
+    "static/media/Plan5.webp": "/animeJS-test/static/media/Plan5.dde3b710d7c513011eb5.webp",
+    "static/media/Plan2.webp": "/animeJS-test/static/media/Plan2.ca749d21b45400e146f0.webp",
+    "static/media/Plan1.webp": "/animeJS-test/static/media/Plan1.95351aea3e9d97a4ea05.webp",
+    "static/media/Plan7.webp": "/animeJS-test/static/media/Plan7.82910d82dfb036b1f9f4.webp",
+    "static/media/Plan4.webp": "/animeJS-test/static/media/Plan4.0275e56c1c5ba3c60127.webp",
+    "static/media/Plan6.webp": "/animeJS-test/static/media/Plan6.5191aa00e560ba8aa43c.webp",
+    "static/media/Plan8.webp": "/animeJS-test/static/media/Plan8.fe27222a0d4df6638ef1.webp",
+    "static/media/ellipse1.webp": "/animeJS-test/static/media/ellipse1.b7c6d591c41d055ef68a.webp",
+    "static/media/ellipse2.webp": "/animeJS-test/static/media/ellipse2.4e99bfb5c61153607f85.webp",
+    "index.html": "/animeJS-test/index.html",
+    "main.4fae7cae.css.map": "/animeJS-test/static/css/main.4fae7cae.css.map",
+    "main.c52d5fa4.js.map": "/animeJS-test/static/js/main.c52d5fa4.js.map",
+    "453.5f3861ab.chunk.js.map": "/animeJS-test/static/js/453.5f3861ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fae7cae.css",
-    "static/js/main.03e2a85d.js"
+    "static/js/main.c52d5fa4.js"
   ]
 }
