@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Sikstep/animeJS-test/static/css/main.f855e6bc.css",
+    "main.js": "/Sikstep/animeJS-test/static/js/main.432f3fb9.js",
+    "static/js/453.5f3861ab.chunk.js": "/Sikstep/animeJS-test/static/js/453.5f3861ab.chunk.js",
+    "static/media/logo.svg": "/Sikstep/animeJS-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Sikstep/animeJS-test/index.html",
+    "main.f855e6bc.css.map": "/Sikstep/animeJS-test/static/css/main.f855e6bc.css.map",
+    "main.432f3fb9.js.map": "/Sikstep/animeJS-test/static/js/main.432f3fb9.js.map",
+    "453.5f3861ab.chunk.js.map": "/Sikstep/animeJS-test/static/js/453.5f3861ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.432f3fb9.js"
+  ]
+}
