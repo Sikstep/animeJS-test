@@ -23,7 +23,7 @@
   grid-area: c;
   background-color: #F4F4F8;
   border-radius: 10px;
-  height: calc(100vh - 60px - 10px);
+  min-height: calc(100vh - 60px - 10px);
   width: 100%;
   overflow: hidden;
 }

@@ -11,17 +11,18 @@ import img7 from '../../items/Plan7.webp';
 import img8 from '../../items/Plan8.webp';
 
 const imgs = [
-    "/imgs/nature/1.jpg",
-    "/imgs/nature/2.jpg",
-    "/imgs/nature/3.jpg",
-    "/imgs/nature/4.jpg",
-    "/imgs/nature/5.jpg",
-    "/imgs/nature/6.jpg",
-    "/imgs/nature/7.jpg",
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
 ];
 
 const ONE_SECOND = 1000;
-const AUTO_DELAY = ONE_SECOND * 10;
+const AUTO_DELAY = ONE_SECOND * 5;
 const DRAG_BUFFER = 50;
 
 const SPRING_OPTIONS = {
@@ -89,7 +90,10 @@ export const Swiper = () => {
     );
 };
 
-const Images = ({ imgIndex }: { imgIndex: number }) => {
+type ImagesType = {
+    imgIndex: number
+}
+const Images = ({ imgIndex }: ImagesType) => {
     return (
         <>
             {imgs.map((imgSrc, idx) => {
@@ -97,6 +101,7 @@ const Images = ({ imgIndex }: { imgIndex: number }) => {
                     <ImageItem
                         key={idx}
                         style={{
+
                             backgroundImage: `url(${imgSrc})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
@@ -112,13 +117,14 @@ const Images = ({ imgIndex }: { imgIndex: number }) => {
     );
 };
 
+type DotsType = {
+    imgIndex: number
+    setImgIndex: Dispatch<SetStateAction<number>>
+}
 const Dots = ({
                   imgIndex,
                   setImgIndex,
-              }: {
-    imgIndex: number;
-    setImgIndex: Dispatch<SetStateAction<number>>;
-}) => {
+              }: DotsType) => {
     return (
         <DotsContainer>
             {imgs.map((_, idx) => {
@@ -148,6 +154,7 @@ const Container = styled.div`
   overflow: hidden;
   background-color: #171717;
   padding: 2rem 0;
+  height: 100%;
 `;
 
 const CarouselContainer = styled(motion.div)`
@@ -160,12 +167,15 @@ const CarouselContainer = styled(motion.div)`
 
 const ImageItem = styled(motion.div)`
   aspect-ratio: 16 / 9;
+  max-width: 100%;
+  max-height: 100%;
   width: 100vw;
   flex-shrink: 0;
   border-radius: 0.75rem;
   background-color: #262626;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 `;
 
 const DotsContainer = styled.div`

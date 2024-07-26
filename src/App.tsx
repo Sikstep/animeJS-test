@@ -26,7 +26,7 @@ function App() {
 
                 <Route path={PATH.PAGE_ERROR} element={<Error404/>}/>
 
-                <Route path={'/*'} element={<Error404/>}/>
+                <Route path={'/*'} element={<ClickOnDot gridWidth={25} gridHeight={20}/>}/>
             </Routes>
         </div>
       </div>
