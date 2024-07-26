@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/animeJS-test/static/css/main.4fae7cae.css",
-    "main.js": "/animeJS-test/static/js/main.c52d5fa4.js",
+    "main.js": "/animeJS-test/static/js/main.18dd783b.js",
     "static/js/453.5f3861ab.chunk.js": "/animeJS-test/static/js/453.5f3861ab.chunk.js",
     "static/media/Plan3.webp": "/animeJS-test/static/media/Plan3.9ea9d9aa8e481e66fc44.webp",
     "static/media/Plan5.webp": "/animeJS-test/static/media/Plan5.dde3b710d7c513011eb5.webp",
@@ -15,11 +15,11 @@
     "static/media/ellipse2.webp": "/animeJS-test/static/media/ellipse2.4e99bfb5c61153607f85.webp",
     "index.html": "/animeJS-test/index.html",
     "main.4fae7cae.css.map": "/animeJS-test/static/css/main.4fae7cae.css.map",
-    "main.c52d5fa4.js.map": "/animeJS-test/static/js/main.c52d5fa4.js.map",
+    "main.18dd783b.js.map": "/animeJS-test/static/js/main.18dd783b.js.map",
     "453.5f3861ab.chunk.js.map": "/animeJS-test/static/js/453.5f3861ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fae7cae.css",
-    "static/js/main.c52d5fa4.js"
+    "static/js/main.18dd783b.js"
   ]
 }
